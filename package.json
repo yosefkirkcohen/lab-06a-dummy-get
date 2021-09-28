@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node index.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yosefkirkcohen/lab-06a-dummy-get.git"
